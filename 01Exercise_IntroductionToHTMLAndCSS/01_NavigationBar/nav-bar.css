@@ -1,0 +1,30 @@
+li{
+    display:inline-block;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+ul{
+    background-color: #444;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    size: 24px;
+    height: 40px;
+    line-height: 40px;
+    padding: 20px;
+}
+
+a{
+  text-decoration: none;  
+color:  #ffffff;
+}
+
