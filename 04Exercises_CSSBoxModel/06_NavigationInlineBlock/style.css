@@ -1,0 +1,36 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  display: inline-block;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+header .title {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 600;
+  width: 300px;
+  text-indent: none;
+}
+
+li{
+    display: inline-block;
+}
+
+ a {
+  text-decoration: none;
+  color: green;
+  padding: 8px;
+}
+
+main > h1{
+    font-size: 20px;
+}
