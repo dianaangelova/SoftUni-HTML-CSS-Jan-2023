@@ -1,11 +1,12 @@
-main{
+body{
     display: grid;
-    grid-template-columns: 100px auto;
-    grid-template-rows: 3 300px;
+    gap: 10px;
     grid-template-areas:
-    "header header header header header"
-    "sidebar main main main main"
-    "footer footer footer footer footer";
+    "header header"
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 100px auto;
+
 }
 
 .header{
@@ -27,7 +28,7 @@ main{
     line-height: 25px  ;
 }
 
-.content{
+main{
     grid-area: main;
     background-color: #B5D8FF;
     margin: 8px;
@@ -35,13 +36,13 @@ main{
     border-radius: 10px;
 }
 
-.footer{
+footer{
     grid-area: footer;
     background-color: #B5D8FF;
-    margin: 12px;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
 }
-
-
 
 a{
     text-decoration: none;
