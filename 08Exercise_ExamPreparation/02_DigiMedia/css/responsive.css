@@ -1,1 +1,106 @@
-/* TODO: Add responsive styles here... */
+
+ @media (max-width: 600px) { 
+  
+    .navbar.navbar-expand-lg.navbar-light{
+        flex-direction: column;}
+
+   .navbar-light .navbar-brand {
+    margin-right: 0%;
+   }
+
+    .hero img {
+       display: none;
+    } 
+
+    .hero h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .hero p {
+        text-align: center;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        margin: 0 110px;
+        align-items: center;
+        
+    }
+
+    .hero-btns a:first-child, 
+    .hero-btns a:last-child {
+        text-align: center;
+    }
+
+    .container {
+        margin-bottom: 120px;
+}
+
+    .col-12.col-sm-12.col-lg-4.service-txt > h2{
+        text-align: center;
+    }
+
+    .container-fluid .row{
+        display: flex;
+        flex-direction: column;
+        gap:30px
+    }
+
+    /* .col-12.col-sm-6.col-lg-4{
+      max-width: 500px;    
+    } */
+
+    .col-sm-6{
+        flex-basis: 1 0 100%;
+        max-width: 100%;
+    }
+
+.side2-img img{
+    top: 1600px;
+}
+
+    
+
+.col-12.col-sm-12.col-lg-6{
+    margin-top: 80px;   
+    text-align: center;
+
+}
+
+.col-12{
+    text-align: center;
+}
+
+#contact-us row{
+margin: 5px;
+} 
+
+.col-12.message #message{
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.hero-btns.contact-btn{
+    display: none;
+}
+
+#contact-us .container{
+    margin-bottom: 0px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer h6{
+    padding-bottom: 5px;
+}
+
+
+}

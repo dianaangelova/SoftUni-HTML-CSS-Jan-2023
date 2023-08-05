@@ -1,60 +1,63 @@
+/* 
+#786eff - lilavo
+#f6f8f9 - svetlo sivo
+#646f79 - tumno sivo
+#273240 - zaglavia
+*/
+
 body {
-    box-sizing: border-box;
-    min-height: 95vh;
-    font-family: Helvetica, sans-serif;
-  }
+  font-family: Helvetica, sans-serif;
+  color: #273240;
+}
 
-  button.prime{
-    background-color: #786eff;
-    color: white;
-    border-color: #786eff;
-  }
+.enterprise {
+  background-color: #f6f8f9;
+  padding: 0 24px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 960px;
+  margin: 60px auto;
+}
 
-  button{
-    border-radius: 5px;
-  }
+.enterprise .info {
+  width: 40%;
+  padding: 48px 0;
+}
 
-  button.more{
-    background-color: #f6f8f9;
-  }
+.enterprise .subtitle {
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
 
-  .title, .company-name, .content{
-    margin-bottom: 24px;
-  }
+.enterprise .title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
 
-  .primary{
-    margin: 24px;
-    background-color: #f6f8f9;
-    border-radius: 5px;
-    display: grid;
-    gap:200px;
+.enterprise .desc {
+  margin-bottom: 20px;
+  color: #646f79;
+}
 
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "main aside";
-  }
+.enterprise .btn {
+  all: unset;
+  border: 1px solid #273240;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+}
 
-  .left{
-    margin-top: 24px;
-    margin-left: 32px;
-    padding: 15px;
-    grid-area: main;
-  }
+.enterprise .btn.btn-primary {
+  border-color: #786eff;
+  background-color: #786eff;
+  color: white;
+  margin-right: 12px;
+}
 
-  .aside{
-    grid-area: aside;
-    margin-right: 32px;
-  }
-
-  .company-name{
-   font-size: 36px;
-  }
-
-
-  .title{
-    font-size: 12px;
-  }
-
-  .content{
-    width: 60%;
-  }
+.enterprise .img {
+  width: 30%;
+}
