@@ -1,15 +1,68 @@
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
 * {
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-  }
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
 
+/* HEADER */
 
-  .title-big,
-  .vertical,
-  .title-small,
-  .navigation
-  {
-    display:inline-block;
-  }
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin:20px;
+}
+
+.titles {
+  width: 30%;
+}
+
+.navigation {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px
+}
+
+.divider.vertical {
+  height: 1.5rem;
+  width: 1px;
+  background-color: black;
+  margin: 0 10px;
+}
+
+.title-big,
+.vertical,
+.title-small {
+  display: inline-block;
+}
+
+.btn {
+  background-color: lightgray;
+  border: lightgrey;
+  height: 45px;
+  padding: 0 20px;
+}
+
+.btn.btn-homepage {
+  background-color: red;
+  color: white;
+  border: red;
+}
+
+/* HERO PICTURE */
+
+.main-container{
+display: grid;
+grid-template-rows: 200px 80px;
+}
+.main-img{
+  position: absolute;
+
+}
+
+.header .logo .sub {
+  font-size: 21px;
+  line-height: 1;
+}
