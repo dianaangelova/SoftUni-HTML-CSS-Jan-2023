@@ -57,12 +57,14 @@
 display: grid;
 grid-template-rows: 200px 80px;
 }
+
 .main-img{
   position: absolute;
 
 }
 
-.header .logo .sub {
-  font-size: 21px;
-  line-height: 1;
-}
+
+
+
+
+
