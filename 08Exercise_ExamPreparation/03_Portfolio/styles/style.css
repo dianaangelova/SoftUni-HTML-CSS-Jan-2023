@@ -1,0 +1,201 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root{
+  --backgr-grey: #efefef;
+  --socials: #909090;
+  --text:#222222;
+}
+
+/* Global Styles */
+
+body{
+  font-family: Raleway, sans-serif;
+  color: var(--text);
+}
+
+.page-section{
+  max-width: 1330px;
+  margin:auto;
+  margin-top: 1%;
+  background-color: var(--backgr-grey);
+  max-height: 92vh;
+  padding: 2rem 3rem;
+  display:flex;
+  gap: 2rem;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page-section .section-info{
+    flex: 0 0 40%;
+
+}
+
+.page-section img{
+  flex: 0 1 30%;
+
+}
+
+.page-section .title{
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.page-section .desc{
+   font-style: italic;
+   margin-bottom: 2.5rem;
+}
+
+
+
+/* HERO */
+
+#hero.page-section{
+  position: relative;
+}
+
+.page-section .navigation{
+position: absolute;
+top:2rem;
+right: 2rem;
+}
+
+#hero .hero-img{
+  padding-top: 10rem;
+  bottom: 0px;
+  width: 50%;
+}
+
+.page-section .divider.vertical{
+  height: 4rem;
+  width: 0.01rem;
+  background-color: var(--text);
+}
+
+/* Camera */
+
+.page-section .divider.horizontal{
+  height: 0.01rem;
+  width: 4rem;
+  background-color: var(--text);
+  display: inline-block;
+  margin-bottom:0.85rem;
+  margin-right:1rem;
+}
+
+#camera .title{
+  display: inline-block;
+}
+
+#camera {
+  gap: 100px;
+  align-items: center;
+}
+
+#camera.page-section{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#camera .section-info{
+  flex: 0 0 50%;
+
+}
+
+/* #camera .camera-img{
+  width: 30%;
+} */
+
+#camera .page-section .img{
+  flex: 40%;
+
+}
+
+ul#list-socials.class-socials{
+  display: inline-flex;
+  gap:20px;
+  align-items: center;
+}
+
+ul#list-socials.class-socials li{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--socials);
+  color:white;
+  position: relative;
+}
+
+ul#list-socials.class-socials li i{
+font-size: 2rem;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.gallery{
+  margin: 15px;
+  padding: 75px;
+  background-color: var(--backgr-grey);
+  display: grid;
+  grid-row: repeat(3,1fr);
+  grid-template-areas:
+  "pic1 pic2 pic3";
+  gap: 10px;
+  height: 500px;
+  align-items: center;
+}
+
+.pic1{
+  grid-area: pic1;
+}
+
+.pic2{
+  grid-area: pic2;
+}
+
+.pic3{
+  grid-area: pic3;
+}
+
+.gallery .picture:hover {
+  transform: scale(1.5);
+}
+
+.contacts .form{
+  background-color: var(--backgr-grey);
+  width: 1330px;
+  display: grid;
+  grid-template-areas: 
+  "email subject"
+  "message message"
+  "send send";
+  gap:40px;
+  padding: 200px 250px ;
+  margin: 12px;
+  margin-left: 15px;
+}
+
+.email{
+  grid-area: email;
+  background: transparent;
+}
+.subject{
+  grid-area: subject;
+  background: transparent;
+}
+.msg{
+  grid-area: message;
+  background: transparent;
+  resize: none;
+}
+.btn{
+  grid-area: send;
+  background-color: var(--text);
+  color: white;
+}
+
+
+
