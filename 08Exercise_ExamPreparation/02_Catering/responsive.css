@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    
+ /* Navigation */
+
+    .w3-right {
+       display: none;
+    }
+
+ /* Picture plates */
+
+    .w3-col.m6.w3-padding-large.w3-hide-small{
+        display: none;
+    }
+
+    /* About */
+
+    .w3-col.m6{
+        width: 100%;
+    }
+
+#menu{
+    display: grid;
+    }
+
+.w3-col.l6{
+    width:100%;
+}
+
+.w3-col.l6.w3-padding-large:nth-child(1){
+    width:100%;
+}
+
+.w3-col.l6.w3-padding-large:nth-child(2){
+    width:100%;
+}
+
+}
