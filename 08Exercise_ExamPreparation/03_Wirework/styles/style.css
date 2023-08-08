@@ -96,8 +96,8 @@
   grid-template-areas: "item1 item2 item3 item4";
   justify-content: space-between;
   background-color: #383838;
-  padding-top: 30px;
-  height: 450px;
+  padding: 40px;
+    height: 450px;
 }
 
 .list-item.option-key {
@@ -139,12 +139,9 @@
 .icon-item-container {
   font-size: 48px;
   background-color: #e24e2a;
-}
-
-i.fas {
-  width: 80px;
-  padding: 14px;
-  margin: 20px;
+  color: white;
+  display: inline-block;
+  padding: 1.8rem;
 }
 
 .title-option {
@@ -154,7 +151,6 @@ i.fas {
 .info-option {
   align-content: center;
   padding: 23px;
-  padding-left: 42px;
   line-height: 2.5;
   letter-spacing: 1px;
   text-align: center;
