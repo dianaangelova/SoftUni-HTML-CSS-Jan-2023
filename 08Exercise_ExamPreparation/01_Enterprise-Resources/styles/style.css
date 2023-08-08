@@ -1,0 +1,116 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+.body {
+  background-color: #d9d9d9;
+}
+
+.main-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  background-color: #d9d9d9;
+  padding: 40px;
+}
+
+.article-container {
+  display: grid;
+  flex-direction: row;
+  grid-template-areas:
+    "picture"
+    "text";
+  width: 30vw;
+  box-shadow: 10px 5px 5px #d1d1d1;
+}
+
+.picture-container {
+  object-fit: cover;
+}
+
+.picture-container img {
+  object-fit: cover;
+}
+
+.info-container {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.info-text {
+  color: #998073;
+}
+
+.picture-container .second-picture {
+  object-fit: fill;
+  width: 576px;
+  height: 384px;
+}
+
+.men-info img {
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer .men-info {
+  padding-right: 150px;
+}
+
+.length-read {
+  padding-top: 15px;
+  color: darkgray;
+}
+
+.small-title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.large-title {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+.info-text,
+.footer {
+  font-size: 22px;
+  /* letter-spacing: 0.5px; */
+  margin-bottom: 50px;
+}
+
+.horizontal-divider {
+  height: 0.01rem;
+  width: 30rem;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.men-icon {
+  display: inline;
+}
+
+.name {
+  display: inline;
+  line-height: 2;
+  vertical-align: text-bottom;
+}
