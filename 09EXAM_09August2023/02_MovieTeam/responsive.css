@@ -1,0 +1,119 @@
+@media (max-width: 600px) { 
+  
+    header nav ul li{
+ display: block;
+}
+
+header nav{
+    justify-content: center;
+}
+
+
+header nav ul li a{
+font-weight: normal;   }
+
+
+.header-title{
+    padding: 2rem 0;
+}
+
+.header-title h1{
+font-size: 30px;}
+
+
+.header-title p{
+    font-size: 15px;}
+
+
+.header-title button {
+        padding: 0.5em 0.7em;
+    }
+
+.team-description ul{
+
+    flex-wrap: wrap;
+}
+
+.team-description ul li img{
+    width: 200px;
+    height: 200px;
+}
+
+.team-description-wrapper,
+.about-us{
+margin: 0 40px;
+}
+
+
+.team-description ul li > p:nth-child(2),
+.team-description ul li > p:nth-child(3){
+font-size: 12px;
+}
+
+.team-description ul li{
+    margin-bottom: 40px;
+}
+
+.about-us p:nth-child(3){
+    width: 96%;
+}
+
+.choose-us ul{
+    flex-direction: column;
+}
+
+/* .choose-us ul h4{
+
+    font-size:16px;
+ } */
+
+.choose-us ul p{
+   padding-left: 120px;
+   padding-right: 120px;
+   /* font-size:15px; */
+}
+
+.blog-news ul{
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+.blog-news ul .item{
+    flex: 1 0 70%;
+    margin-left:40px;
+}
+
+.blog-news ul .item:nth-child(1){
+    margin-bottom: 20px;
+}
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
